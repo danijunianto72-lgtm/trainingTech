@@ -317,24 +317,54 @@ body {
     font-weight: 600;
 }
 
-.card-icon {
+.card-icon-suhu {
     width: 44px;
     height: 44px;
     flex-shrink: 0;
 
     border-radius: 13px;
-    background: #eff6ff;
+    background: #c1cf00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-icon-led {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+
+    border-radius: 13px;
+    background: cyan;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.card-icon-lembab {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+
+    border-radius: 13px;
+    background: brown;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card-icon i {
+.card-icon-suhu i {
     font-size: 22px;
-    color: var(--warna-utama);
+    color: blue;
 }
 
+.card-icon-lembab i {
+    font-size: 22px;
+    color: pink;
+}.card-icon-led i {
+    font-size: 22px;
+    color: red;
+}
 .nilai-wrapper {
     margin-top: 28px;
     margin-bottom: 12px;
@@ -622,7 +652,7 @@ body {
 
     .footer {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-end;
     }
 
 }
